@@ -2,6 +2,10 @@
 
 SmartTrip is a modern web application designed to revolutionize vacation planning by offering an intuitive, transparent, and efficient platform for travelers to compare vacation prices, explore unique experiences, and make seamless bookings.
 
+## Live Demo
+
+Visit our website: [SmartTrip Vacation Planner](https://smarttrip-vacation-planner.vercel.app/)
+
 ## Features
 
 - Real-time price comparison
@@ -11,25 +15,37 @@ SmartTrip is a modern web application designed to revolutionize vacation plannin
 - Responsive design for all devices
 - Newsletter subscription
 - Interactive booking system
+- Travel guides for popular African destinations
+- Detailed destination information
 
 ## Project Structure
 
 ```
 smarttrip/
-├── index.html          # Main HTML file
+├── index.html          # Main landing page
+├── about.html          # About us page
+├── destinations.html   # Destinations showcase
+├── guides.html         # Travel guides
+├── contact.html        # Contact information
+├── booking.html        # Booking system
+├── login.html          # User login
+├── signup.html         # User registration
 ├── styles/
-│   └── main.css       # Main stylesheet
+│   ├── main.css        # Main stylesheet
+│   ├── auth.css        # Authentication styles
+│   └── booking.css     # Booking system styles
 ├── js/
-│   └── main.js        # JavaScript functionality
-└── images/            # Image assets
+│   ├── main.js         # Main JavaScript functionality
+│   └── auth.js         # Authentication scripts
+└── images/             # Image assets
 ```
 
 ## Setup Instructions
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/smarttrip.git
-cd smarttrip
+git clone https://github.com/MichaelMusembi/SmartTrip-Vacation-Planner.git
+cd SmartTrip-Vacation-Planner
 ```
 
 2. Open the project:
@@ -37,21 +53,26 @@ cd smarttrip
   ```bash
   python -m http.server 8000
   ```
-- Or using Node.js's `http-server`:
-  ```bash
-  npx http-server
-  ```
 
 3. Open your browser and navigate to:
-- If using Python: `http://localhost:8000`
-- If using http-server: `http://localhost:8080`
+- `http://localhost:8000`
+
+## Deployment
+
+This project is deployed on Vercel. To deploy your own version:
+
+1. Fork this repository
+2. Create an account on [Vercel](https://vercel.com)
+3. Connect your GitHub account to Vercel
+4. Import your forked repository
+5. Vercel will automatically detect the static site and deploy it
 
 ## Development
 
 ### HTML Structure
-- The main content is in `index.html`
-- Follows semantic HTML5 structure
-- Includes all necessary meta tags and responsive viewport settings
+- Semantic HTML5 structure
+- Multiple pages for different sections
+- Responsive design with mobile-first approach
 
 ### CSS
 - Modern CSS with CSS Variables for theming
@@ -86,5 +107,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Your Name - [@yourusername](https://twitter.com/yourusername)
-Project Link: [https://github.com/yourusername/smarttrip](https://github.com/yourusername/smarttrip) 
+Michael Musembi - [@MichaelMusembi](https://github.com/MichaelMusembi)
+Project Link: [https://github.com/MichaelMusembi/SmartTrip-Vacation-Planner](https://github.com/MichaelMusembi/SmartTrip-Vacation-Planner) 
