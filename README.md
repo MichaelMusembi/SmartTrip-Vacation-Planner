@@ -86,5 +86,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Your Name - [@yourusername](https://twitter.com/yourusername)
-Project Link: [https://github.com/yourusername/smarttrip](https://github.com/yourusername/smarttrip) 
+Email - [m.musembi@alustudent.com]
+Project Link: [https://github.com/michaelmusembi/smarttrip](https://github.com/michaelmusembi/smarttrip) 
